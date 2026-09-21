@@ -4,6 +4,10 @@ My Python programs and practice
 
 # code for magic square
 
+Magic Square in Python 🔢
+
+> A beginner Python project that creates a Magic Square using lists and loops. This project helped me practice basic Python concepts like functions, loops, and lists.
+
 def magic_Square(n):
 	magicSquare =[ ]
 	for i in range(3):
@@ -12,7 +16,8 @@ def magic_Square(n):
 			l.append(0)
 		magicSquare.append(l)
 		
-	i = n//2
+	
+i = n//2
 	j = n-1
 	num = n*n
 	count = 1
